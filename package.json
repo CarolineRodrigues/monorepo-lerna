@@ -1,12 +1,12 @@
 {
   "name": "@mono-pack/my-design-system",
   "version": "0.0.1",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
     "classnames": "^2.3.2",
+    "npm-cli-login": "^1.0.0",
     "sass": "^1.66.0"
   },
   "devDependencies": {
@@ -86,8 +86,8 @@
   "peerDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "react": "^18.2.0",
     "lerna": "^8.1.2",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "scripts": {

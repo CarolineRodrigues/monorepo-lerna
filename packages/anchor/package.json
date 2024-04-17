@@ -1,6 +1,5 @@
 {
   "name": "@mono-pack/c-anchor",
-  "private": true,
   "version": "1.0.0",
   "description": "C Anchor",
   "main": "lib/index.js",

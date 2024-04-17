@@ -1,6 +1,5 @@
 {
   "name": "@mono-pack/c-button",
-  "private": true,
   "version": "1.0.0",
   "description": "C Button",
   "main": "lib/index.js",
