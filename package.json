@@ -1,5 +1,5 @@
 {
-  "name": "my-design-system",
+  "name": "@mono-pack/my-design-system",
   "private": true,
   "workspaces": [
     "packages/*"
