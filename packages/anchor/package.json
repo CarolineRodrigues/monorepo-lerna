@@ -7,9 +7,13 @@
   "directories": {
     "lib": "lib"
   },
+  "files": [
+    "lib"
+  ],
   "author": "CCR",
   "license": "MIT",
   "scripts": {
+    "tsc": "tsc",
     "build": "tsc -d",
     "dev": "tsc --watch"
   },
