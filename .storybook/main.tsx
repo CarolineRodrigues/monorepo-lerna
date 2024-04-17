@@ -12,11 +12,10 @@ function getAbsolutePath(value) {
 const config = {
   stories: ["../packages/**/*.stories.[tj]sx"],
   addons: [
-    getAbsolutePath("@storybook/addon-onboarding"),
-    getAbsolutePath("@storybook/addon-links"),
-    getAbsolutePath("@storybook/addon-essentials"),
-    getAbsolutePath("@chromatic-com/storybook"),
-    getAbsolutePath("@storybook/addon-interactions"),
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+    "@storybook/addon-a11y",
   ],
   framework: {
     name: getAbsolutePath("@storybook/nextjs"),

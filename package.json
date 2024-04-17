@@ -1,6 +1,7 @@
 {
   "name": "@mono-pack/my-design-system",
   "version": "0.0.1",
+  "private": "true",
   "workspaces": [
     "packages/*"
   ],
@@ -96,7 +97,7 @@
     "dev": "lerna run dev",
     "publish": "lerna run tsc && lerna publish",
     "commit": "git-cz",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "storybook dev -p 6006",
     "build-storybook": "build-storybook"
   }
 }
