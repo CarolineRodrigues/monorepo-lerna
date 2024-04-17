@@ -12,5 +12,6 @@
   "scripts": {
     "build": "tsc -d",
     "dev": "tsc --watch"
-  }
+  },
+  "gitHead": "e0d03ba0e73d33a4a99f7b8a6bac9c3ac0a95fe2"
 }
