@@ -1,0 +1,16 @@
+{
+  "name": "c-button",
+  "version": "0.0.1",
+  "description": "C Button",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "CCR",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -d",
+    "dev": "tsc --watch"
+  }
+}
