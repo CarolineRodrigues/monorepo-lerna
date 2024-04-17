@@ -1,6 +1,6 @@
 {
   "name": "@mono-pack/c-anchor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "C Anchor",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -13,5 +13,8 @@
     "build": "tsc -d",
     "dev": "tsc --watch"
   },
-  "gitHead": "6aeb40a24c50ddda6e4e5fb8650aea4ff8fa6b00"
+  "gitHead": "89919be7b01bab2dd60e9218579966ef7425198a",
+  "publishConfig": {
+    "access": "public"
+  }
 }
