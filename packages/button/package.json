@@ -1,6 +1,6 @@
 {
   "name": "@mono-pack/c-button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "C Button",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -13,5 +13,5 @@
     "build": "tsc -d",
     "dev": "tsc --watch"
   },
-  "gitHead": "f915067247873444296cd9cb40e476c6cc1ac1c6"
+  "gitHead": "289c736b1f21bc633a47cabbc028705c30d570ea"
 }
