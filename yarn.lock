@@ -1569,24 +1569,27 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@mono-pack/c-anchor@^3.0.0", "@mono-pack/c-anchor@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\anchor":
-  version "3.0.0"
+"@mono-pack/c-anchor@^4.0.0", "@mono-pack/c-anchor@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\anchor":
+  version "4.0.0"
   resolved "file:packages/anchor"
+  dependencies:
+    "@mono-pack/c-styles" "^4.0.0"
 
-"@mono-pack/c-button@^3.0.0", "@mono-pack/c-button@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\button":
-  version "3.0.0"
+"@mono-pack/c-button@^4.0.0", "@mono-pack/c-button@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\button":
+  version "4.0.0"
   resolved "file:packages/button"
 
-"@mono-pack/c-styles@^3.0.0", "@mono-pack/c-styles@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\ui":
-  version "3.0.0"
+"@mono-pack/c-styles@^4.0.0", "@mono-pack/c-styles@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\ui":
+  version "4.0.0"
   resolved "file:packages/ui"
 
 "@mono-pack/c-template@file:C:\\Users\\caroline.rodrigues\\Documents\\monorepo-lerna\\packages\\template":
-  version "3.0.0"
+  version "4.0.0"
   resolved "file:packages/template"
   dependencies:
-    "@mono-pack/c-anchor" "^3.0.0"
-    "@mono-pack/c-button" "^3.0.0"
+    "@mono-pack/c-anchor" "^4.0.0"
+    "@mono-pack/c-button" "^4.0.0"
+    "@mono-pack/c-styles" "^4.0.0"
 
 "@ndelangen/get-tarball@^3.0.7":
   version "3.0.9"

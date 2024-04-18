@@ -20,5 +20,8 @@
   "gitHead": "89919be7b01bab2dd60e9218579966ef7425198a",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@mono-pack/c-styles": "^4.0.0"
   }
 }
