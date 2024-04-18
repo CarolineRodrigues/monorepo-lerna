@@ -1,7 +1,7 @@
 {
-  "name": "@mono-pack/c-button",
+  "name": "@mono-pack/c-template",
   "version": "3.0.0",
-  "description": "C Button",
+  "description": "C template",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "directories": {
@@ -20,5 +20,9 @@
   "gitHead": "89919be7b01bab2dd60e9218579966ef7425198a",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@mono-pack/c-anchor": "^3.0.0",
+    "@mono-pack/c-button": "^3.0.0"
   }
 }
