@@ -1,6 +1,6 @@
 {
   "name": "@mono-pack/c-styles",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "C styles",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
