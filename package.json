@@ -1,11 +1,11 @@
 {
   "name": "@mono-pack/my-design-system",
   "version": "0.0.1",
-  "private": "true",
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
     "classnames": "^2.3.2",
     "npm-cli-login": "^1.0.0",
     "sass": "^1.66.0",
@@ -45,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "@vitejs/plugin-react-swc": "^3.3.2",
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.4.19",
     "babel-jest": "^29.7.0",
     "date-fns": "^2.30.0",
     "del": "^7.1.0",
@@ -71,13 +71,13 @@
     "jest-preview": "^0.3.1",
     "lerna": "^8.1.2",
     "playwright": "^1.40.0",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.38",
     "prettier": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-syntax-highlighter": "^15.5.0",
     "storybook": "^8.0.8",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.3",
     "ts-dedent": "^2.2.0",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.1",
@@ -93,7 +93,7 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "build": "lerna run build",
+    "build": "lerna run build && vite build && gulp bundle",
     "dev": "lerna run dev",
     "publish": "lerna run tsc && lerna publish",
     "commit": "git-cz",

@@ -1,7 +1,7 @@
 {
-  "name": "@mono-pack/c-template",
+  "name": "@mono-pack/c-styles",
   "version": "3.0.0",
-  "description": "C template",
+  "description": "C styles",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "directories": {
@@ -13,17 +13,10 @@
   "author": "CCR",
   "license": "MIT",
   "scripts": {
-    "tsc": "tsc",
-    "build": "tsc -d",
-    "dev": "tsc --watch"
+    "build": "tailwindcss -i ./src/globals.css -o ./lib/tailwind.css"
   },
   "gitHead": "89919be7b01bab2dd60e9218579966ef7425198a",
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@mono-pack/c-anchor": "^3.0.0",
-    "@mono-pack/c-button": "^3.0.0",
-    "@mono-pack/c-styles": "^3.0.0"
   }
 }

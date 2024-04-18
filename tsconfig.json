@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "lib",
     "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -16,12 +16,19 @@
     "jsx": "react",
     "lib": ["dom", "es2015", "es2017"],
     "baseUrl": "./",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./packages/*"]
+    }
   },
   "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "**/*.stories.[tj]sx",
-    "**/*.test.[tj]s"
+    ".storybook/**/*",
+    ".vscode/**/*",
+    "artifacts/**/*",
+    "infrastructure/**/*",
+    "node_modules/**/*",
+    "static/**/*",
+    "src/test/**/*",
+    "src/**/*/tests/*"
   ]
 }
