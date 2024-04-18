@@ -22,4 +22,10 @@ task("clean", async () => {
   });
 });
 
-task("bundle", gulp.series("bundle-css", "clean"));
+task("copy-tailwindconfig", function () {
+  return gulp
+    .src("packages/ui/src/tailwind-config.ts")
+    .pipe(gulp.dest("packages/ui/lib"));
+});
+
+task("bundle", gulp.series("bundle-css", "clean", "copy-tailwindconfig"));
